@@ -1,0 +1,23 @@
+body {
+      background: linear-gradient(90deg, rgb(111, 34, 83),rgb(253, 64, 149));
+    }
+    .foto {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    .foto img {
+      width: 400px;
+      height: 300px;
+      border: 2px solid hsla(28.6,85.7%,22.7%,0.827);
+      border-radius: 13px;
+      box-shadow: 4px 7px 7px 0px hsl(80,0%,0%);
+      cursor: pointer;
+      margin: 10px;
+      transition: 40ms;
+    }
+    .foto img:hover {
+      filter: grayscale(1);
+      transform: scale(1.03);
+    }
